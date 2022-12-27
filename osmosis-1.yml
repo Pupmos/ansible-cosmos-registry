@@ -1,0 +1,19 @@
+user: osmosis
+root: '.osmosisd'
+binary: osmosisd
+chain_id: osmosis-1
+repository_url: https://github.com/osmosis-labs/osmosis
+version: v13.1.0
+src_path: /tmp/osmosis
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/osmosis-1/genesis.json.gz
+upgrade: v13
+minimum_gas_prices: 0uosmo
+seeds: '21d7539792ee2e0d650b199bf742c56ae0cf499e@162.55.132.230:2000,295b417f995073d09ff4c6c141bd138a7f7b5922@65.21.141.212:2000,ec4d3571bf709ab78df61716e47b5ac03d077a1a@65.108.43.26:2000,f515a8599b40f0e84dfad935ba414674ab11a668@osmosis.blockpane.com:26656'
+persistent_peers: '1a8b757f720c94cb02440effb483390fcd8e95f9@89.163.217.34:26656,a533c84f25ab9892869bbcbd454f36c3d97d75b0@202.61.243.46:26656'
+golang_version: go1.18.3
+apply_snapshot: 'yes'
+snapshot_type: 'tar.lz4'
+timeout_commit: '5s'
+
+# Optional.
+service_name: osmosis

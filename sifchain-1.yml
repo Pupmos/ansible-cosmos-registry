@@ -1,0 +1,19 @@
+user: sifchain
+root: '.sifnoded'
+binary: sifnoded
+chain_id: sifchain-1
+repository_url: https://github.com/sifchain/sifnode
+version: v1.0.14-beta
+src_path: /tmp/sifchain
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/sifchain-1/genesis.json.gz
+upgrade: '1.0.14-beta'
+minimum_gas_prices: 0.5rowan
+seeds: ''
+persistent_peers: '0d4981bdaf4d5d73bad00af3b1fa9d699e4d3bc0@44.235.108.41:26656,bcc2d07a14a8a0b3aa202e9ac106dec0bef91fda@13.55.247.60:26656,663dec65b754aceef5fcccb864048305208e7eb2@34.248.110.88:26656,0120f0a48e7e81cc98829ef4f5b39480f11ecd5a@52.76.185.17:26656'
+golang_version: go1.18.3
+apply_snapshot: 'no'
+snapshot_type: 'tar.gz'
+timeout_commit: '5s'
+db_backend: 'rocksdb'
+rocksdb_version: v6.15.5
+ldflags: '-X github.com/cosmos/cosmos-sdk/version.Name=sifchain -X github.com/cosmos/cosmos-sdk/version.ServerName=sifnoded -X github.com/cosmos/cosmos-sdk/version.Version=1.0.14-beta'

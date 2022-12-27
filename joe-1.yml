@@ -1,0 +1,20 @@
+user: joe
+root: '.joed'
+binary: joed
+chain_id: joe-1
+repository_url: https://github.com/joe-chain/joe
+version: v0.0.1
+src_path: /tmp/joe
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/joe-1/genesis.json.gz
+upgrade: ''
+minimum_gas_prices: 0joe
+seeds: ''
+persistent_peers: '773cbd225a1852499e51affd8f21c9e834733fde@95.217.113.126:26656'
+golang_version: go1.19.3
+apply_snapshot: 'yes'
+snapshot_type: 'tar.lz4'
+timeout_commit: '5s'
+
+# Optional.
+service_name: joe
+port_prefix: 07

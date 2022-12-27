@@ -1,0 +1,16 @@
+user: juno
+root: '.juno'
+binary: junod
+chain_id: juno-1
+repository_url: https://github.com/CosmosContracts/juno
+version: v2.1.0
+src_path: /tmp/juno
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/juno-classic/genesis.json.gz
+upgrade: ''
+minimum_gas_prices: 0.0025ujuno
+seeds: ''
+persistent_peers: ''
+golang_version: go1.17.10
+apply_snapshot: 'yes'
+snapshot_type: 'tgz'
+timeout_commit: '5s'

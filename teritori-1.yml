@@ -1,0 +1,20 @@
+user: teritori
+root: '.teritorid'
+binary: teritorid
+chain_id: teritori-1
+repository_url: https://github.com/TERITORI/teritori-chain
+version: v1.3.0
+src_path: /tmp/teritori
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/teritori-1/genesis.json.gz
+upgrade: 'v1.3.0'
+minimum_gas_prices: 0.0utori
+seeds: 'ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:15956'
+persistent_peers: '3069b058b5ed85c3cdb2cf18fb1d255d966b53af@193.149.187.8:26656,a06fbbb9ace823ae28a696a91daa2d0644653c28@65.21.32.200:26756'
+golang_version: go1.18.3
+apply_snapshot: 'yes'
+snapshot_type: 'tar.lz4'
+timeout_commit: '5s'
+
+# Optional.
+service_name: teritori
+port_prefix: 09

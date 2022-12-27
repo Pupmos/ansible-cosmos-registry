@@ -1,0 +1,16 @@
+user: kichain
+root: '.kid'
+binary: kid
+chain_id: kichain-2
+repository_url: https://github.com/KiFoundation/ki-tools
+version: 3.0.0
+src_path: /tmp/kichain
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/kichain-2/genesis.json.gz
+upgrade: v3
+minimum_gas_prices: 0.025uxki
+seeds: '24cbccfa8813accd0ebdb09e7cdb54cff2e8fcd9@51.89.166.197:26656'
+persistent_peers: ''
+golang_version: go1.17.10
+apply_snapshot: 'yes'
+snapshot_type: 'tar.lz4'
+timeout_commit: '5s'

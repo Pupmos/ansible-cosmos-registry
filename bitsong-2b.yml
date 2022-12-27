@@ -1,0 +1,16 @@
+user: bitsong
+root: '.bitsongd'
+binary: bitsongd
+chain_id: bitsong-2b
+repository_url: https://github.com/bitsongofficial/go-bitsong
+version: v0.11.0
+src_path: /tmp/bitsong
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/bitsong-2b/genesis.json.gz
+upgrade: 'v011'
+minimum_gas_prices: 0ubtsg
+seeds: 'ffa27441ca78a5d41a36f6d505b67a145fd54d8a@95.217.156.228:26656,efd52c1e56b460b1f37d73c8d2bd5f860b41d2ba@65.21.62.83:26656'
+persistent_peers: 'a62038142844828483dbf16fa6dd159f6857c81b@173.212.247.98:26656,e9fea0509b1a2d16a10ef9fdea0a4e3edc7ca485@185.144.83.158:26656,8208adac8b09f3e2499dfaef24bb89a2d190a7a3@164.68.109.246:26656,cf031ac1cf44c9c311b5967712899391a434da9a@161.97.97.61:26656,d6b2ae82c38927fa7b7630346bd84772e632983a@157.90.95.104:15631,a5885669c1f7860bfe28071a7ec00cc45b2fcbc3@144.91.85.56:26656,325a5920a614e2375fea90f8a08d8b8d612fdd1e@137.74.18.30:26656,ae2787a337c3599b16410f3ac09d6918da2e5c37@46.101.238.149:26656,9336f75cd99ff6e5cdb6335e8d1a2c91b81d84b9@65.21.0.232:26656,9c6e52e78f112a55146b09110d1d1be47702df27@135.181.211.184:36656'
+golang_version: go1.18.3
+apply_snapshot: 'yes'
+snapshot_type: 'tar.gz'
+timeout_commit: '5s'

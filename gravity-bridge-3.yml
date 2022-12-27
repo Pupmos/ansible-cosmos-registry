@@ -1,0 +1,17 @@
+user: gravity
+root: '.gravity'
+binary: gravity
+chain_id: gravity-bridge-3
+repository_url: https://github.com/Gravity-Bridge/Gravity-Bridge
+version: v1.6.5
+binary_release: gravity-linux-amd64
+binary_path: /tmp
+genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/gravity-bridge-3/genesis.json.gz
+upgrade: 'polaris'
+minimum_gas_prices: 0ugrav
+seeds: '2b089bfb4c7366efb402b48376a7209632380c9c@65.19.136.133:26656,63e662f5e048d4902c7c7126291cf1fc17687e3c@95.211.103.175:26656'
+persistent_peers: '21be3f7686c24f8bd9442b325a50f5b5227777a7@202.61.231.15:26656,9aa7e0c250466a2a147f8b7d2b886b0d45d44ca0@45.138.49.222:26656'
+golang_version: go1.16.15
+apply_snapshot: 'yes'
+snapshot_type: 'tar.gz'
+timeout_commit: '5s'
