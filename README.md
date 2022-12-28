@@ -1,6 +1,6 @@
-# Ansible
+# Pupmos/ansible-cosmos-registry
 
-A registry of all Cosmos chains that can be used with our ansible playbooks.
+A registry of all Cosmos chains that can be used with our Asnsible playbooks.
 
 ## Usage
 
