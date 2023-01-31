@@ -14,6 +14,5 @@ golang_version: go1.18.3
 apply_snapshot: 'no'
 snapshot_type: 'tar.gz'
 timeout_commit: '5s'
-db_backend: 'rocksdb'
-rocksdb_version: v6.15.5
-ldflags: '-X github.com/cosmos/cosmos-sdk/version.Name=sifchain -X github.com/cosmos/cosmos-sdk/version.ServerName=sifnoded -X github.com/cosmos/cosmos-sdk/version.Version=1.0.14-beta'
+db_backend: 'pebbledb'
+ldflags: '-X github.com/cosmos/cosmos-sdk/version.Name=sifchain -X github.com/cosmos/cosmos-sdk/version.ServerName=sifnoded -X github.com/cosmos/cosmos-sdk/version.Version=v1.1.0-beta'
