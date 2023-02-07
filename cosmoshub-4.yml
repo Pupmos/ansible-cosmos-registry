@@ -12,10 +12,8 @@ seeds: 'bf8328b66dceb4987e5cd94430af66045e59899f@public-seed.cosmos.vitwit.com:2
 persistent_peers: ''
 golang_version: go1.18.3
 apply_snapshot: 'yes'
-snapshot_type: 'tar.gz'
+snapshot_type: 'tar.lz4'
 timeout_commit: '5s'
-db_backend: 'pebbledb'
-ldflags: '-X github.com/cosmos/cosmos-sdk/version.ServerName=gaiad -X github.com/cosmos/cosmos-sdk/version.Version=v7.1.0'
 
 # Optional.
 service_name: cosmoshub
