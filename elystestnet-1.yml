@@ -3,7 +3,7 @@ root: '.elys'
 binary: elysd
 chain_id: elystestnet-1
 repository_url: https://github.com/elys-network/elys
-version: v0.5.3
+version: v0.5.4
 src_path: /tmp/elys
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/elystestnet-1/genesis.json.gz
 upgrade: 'v0.5.3'
