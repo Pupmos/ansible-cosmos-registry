@@ -3,7 +3,7 @@ root: '.osmosisd'
 binary: osmosisd
 chain_id: osmosis-1
 repository_url: https://github.com/osmosis-labs/osmosis
-version: v15.0.0
+version: v15.1.2
 src_path: /tmp/osmosis
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/osmosis-1/genesis.json.gz
 upgrade: v15

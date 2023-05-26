@@ -3,7 +3,7 @@ root: '.crescent'
 binary: crescentd
 chain_id: crescent-1
 repository_url: https://github.com/crescent-network/crescent
-version: v4.1.0
+version: v4.1.1
 src_path: /tmp/crescent
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/crescent-1/genesis.json.gz
 upgrade: 'v4'
