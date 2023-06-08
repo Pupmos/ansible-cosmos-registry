@@ -3,7 +3,7 @@ root: '.starsd'
 binary: starsd
 chain_id: stargaze-1
 repository_url: https://github.com/public-awesome/stargaze
-version: v10.0.0
+version: v10.0.1
 src_path: /tmp/stargaze
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/stargaze-1/genesis.json.gz
 upgrade: v10
