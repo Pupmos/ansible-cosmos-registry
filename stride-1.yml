@@ -3,7 +3,7 @@ root: '.stride'
 binary: strided
 chain_id: stride-1
 repository_url: https://github.com/Stride-Labs/stride
-version: v9.1.1
+version: v9.2.1
 src_path: /tmp/stride
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/stride-1/genesis.json.gz
 upgrade: 'v9'
