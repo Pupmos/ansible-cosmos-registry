@@ -8,7 +8,7 @@ src_path: /tmp/meme
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/meme-1/genesis.json.gz
 upgrade: ''
 minimum_gas_prices: 0.025umeme
-seeds: 'dbe97ebeb4d07999a1fe2de2f92a56cc07385259@seeds.pupmos.network:2005'
+seeds: 'ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:14756'
 persistent_peers: 'a9959fef554ee407f23dffbcd4c0711e02a07d18@207.246.107.204:26656,f6e846ee01e14bc06e9b1b8be9237d8c365614e7@45.76.154.44:26656,1e2a4e7c513d1ba267fe2e689d4dfe6d6105f644@139.180.140.142:26656,c57fce65a0e6be87763ae38d607b817b3acde620@173.212.215.104:26656,c1e05690adfbc970817e0debb5d7770ee9f2f3ac@65.108.131.174:47656'
 golang_version: go1.17.10
 apply_snapshot: 'yes'
