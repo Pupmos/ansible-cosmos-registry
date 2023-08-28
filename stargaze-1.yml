@@ -3,14 +3,14 @@ root: '.starsd'
 binary: starsd
 chain_id: stargaze-1
 repository_url: https://github.com/public-awesome/stargaze
-version: v11.0.0
+version: v12.0.0
 src_path: /tmp/stargaze
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/stargaze-1/genesis.json.gz
-upgrade: v11
+upgrade: v12
 minimum_gas_prices: 0ustars
 seeds: 'd5fc4f479c4e212c96dff5704bb2468ea03b8ae3@sg-seed.blockpane.com:26656'
 persistent_peers: '387c32677c54dd4627366ffdf8e2dda68e71af69@54.193.168.147:26656,e28635dc537dce1d6f1cf44b7b335a530d923fa1@15.165.94.246:26656,413562a502b4a47ec3375bfae6aa01bc47bc6979@204.236.141.188:26656'
-golang_version: go1.20.1
+golang_version: go1.20.3
 apply_snapshot: 'yes'
 snapshot_type: 'tar.lz4'
 timeout_commit: '5s'
