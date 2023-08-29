@@ -14,7 +14,3 @@ golang_version: go1.18.3
 apply_snapshot: 'yes'
 snapshot_type: 'tar.lz4'
 timeout_commit: '4s'
-
-# Optional.
-service_name: crescent
-port_prefix: 03
