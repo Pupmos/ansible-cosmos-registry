@@ -3,7 +3,7 @@ root: '.chihuahuad'
 binary: chihuahuad
 chain_id: chihuahua-1
 repository_url: https://github.com/ChihuahuaChain/chihuahua
-version: v5.0.3
+version: v5.0.4
 src_path: /tmp/chihuahua
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/chihuahua-1/genesis.json.gz
 upgrade: 'v503'
