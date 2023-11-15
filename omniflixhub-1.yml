@@ -3,7 +3,7 @@ root: '.omniflixhub'
 binary: omniflixhubd
 chain_id: omniflixhub-1
 repository_url: https://github.com/OmniFlix/omniflixhub
-version: v0.12.0
+version: v0.12.1
 src_path: /tmp/omniflixhub
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/omniflixhub-1/genesis.json.gz
 upgrade: 'v0.12.x'
