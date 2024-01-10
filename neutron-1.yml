@@ -3,7 +3,7 @@ root: '.neutrond'
 binary: neutrond
 chain_id: neutron-1
 repository_url: https://github.com/neutron-org/neutron
-version: v2.0.0
+version: v2.0.1
 src_path: /tmp/neutron
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/neutron-1/genesis.json.gz
 upgrade: 'v2.0.0'
