@@ -3,7 +3,7 @@ root: '.canine'
 binary: canined
 chain_id: jackal-1
 repository_url: https://github.com/JackalLabs/canine-chain
-version: v3.0.0
+version: v3.0.5
 src_path: /tmp/jackal
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/jackal-1/genesis.json.gz
 upgrade: 'v3'
