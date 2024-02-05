@@ -3,7 +3,7 @@ root: '.juno'
 binary: junod
 chain_id: juno-1
 repository_url: https://github.com/CosmosContracts/juno
-version: v19.0.0
+version: v19.1.0
 src_path: /tmp/juno
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/juno-1/genesis.json.gz
 upgrade: 'v19'
