@@ -3,7 +3,7 @@ root: '.gaia'
 binary: gaiad
 chain_id: cosmoshub-4
 repository_url: https://github.com/cosmos/gaia
-version: v15.0.0
+version: v15.1.0
 src_path: /tmp/gaia
 genesis_url: https://s3.ap-southeast-1.amazonaws.com/network.pupmos.genesis/cosmoshub-4/genesis.json.gz
 upgrade: v15
